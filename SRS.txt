@@ -1,0 +1,57 @@
+Audacity
+SRS documentation 
+# Audacity Software - Simplified Software Requirements Specification (SRS) Document
+
+## Introduction
+
+This document is a guide on what Audacity is capable of. Audacity is free open-source audio editing software. We're aiming for an easy-to-use yet powerful tool for creators of all levels to record, edit, and manipulate audio.
+
+### Purpose
+The goal of this document is to outline the essential functionalities and requirements of Audacity, ensuring developers and stakeholders are on the same page regarding the software's capabilities, performance, and usability.
+
+### Intended Audience
+This SRS is meant for the development team, project managers, testers, potential contributors, and any individual curious about what the Audacity is supposed to do.
+
+### Scope of the Software
+Audacity should serve as a multi-track audio recorder and editor that can handle everything from quick audio trimming to substantial multi-track mixing. It will support various file formats, effects, and real-time processing features suitable for podcasters, musicians and audio professionals alike.
+
+## Overall Description
+
+### Product Perspective
+Audacity is one of the best editors for audio tasks – flexible enough to be used by beginners for simple recording tasks and by audio editors who need to conjure up complex editing.
+
+### User Needs
+- Ease of Use: Even though audio editing can be complex we want users not to feel overwhelmed.
+- Functionality: From simple recording to extensive editing, the features should cover a broad spectrum of audio work.
+- Accessibility: Should be usable by individuals with disabilities.
+- Performance: Efficient enough to quickly edit audio tracks without using much of processing power.
+
+## System Features & Requirements
+
+### User Interfaces:
+- Welcoming Main Window: Should show a clear layout of tracks, menus, and control panels.
+- Theme Support: Users can choose the look that they like.
+- Zoom & Scroll: Zoom in on those waveforms with a simple mouse scroll or keyboard shortcut.
+- Multi-Language Support: Audacity needs to be in several languages.
+
+### Functional Requirements:
+- Recording: Connect microphone, press the record button, and start recording.
+- Playback: Press play button and listen to recorded audio, or check that edits are on point.
+- Editing: Cutting, trimming, copying, and pasting segments of audio should be easy.
+- Effects: Reverb, compression, noise reduction, and other essentials needs to be in the software.
+- Plugins: Support for third-party plugins for additional functionality.
+- Formats: Import and export a range of audio formats such as MP3, WAV, OGG, and more.
+
+### Performance Requirements:
+- Speed: Operations like opening, editing, and saving files should be quick.
+- Stability: It should be stable, no crashing when the project gets complex or the files large.
+
+### System Requirements:
+- Compatibility: Should work on Windows, macOS, and Linux.
+- Hardware Friendly: It should run comfortably on older machines.
+
+## External Interface Requirements
+- Audio Interfaces: Should play with a variety of microphones, audio interfaces, and controllers.
+- File Systems: Needs to interact seamlessly with different file systems to open and save files anywhere.
+
+## Non-functional Requirements: 
