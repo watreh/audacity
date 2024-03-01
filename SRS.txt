@@ -55,3 +55,24 @@ Audacity is one of the best editors for audio tasks – flexible enough to be us
 - File Systems: Needs to interact seamlessly with different file systems to open and save files anywhere.
 
 ## Non-functional Requirements: 
+- Intuitive: It should be intuitive enough that new users without much experience could start working on the app immediately. 
+- Documentation: Clear, helpful guides and tooltips for a new users to better understand capabilities and functionalities of the software. 
+
+### Reliability 
+- Backup and Auto-Save: Backup option needs to be considered for different cases such as unexpeted turn-off of the computer. If such scenario happened, all done work needs to be auto-saved and available when the app is used next time. 
+- Error Handling: If something does go wrong, the software needs to inform about that, with clear messages and potential solutions or links to the tech support. 
+
+### Security 
+- Permission Checks: Audacity should ask before accessing files or devices. 
+- Data Protection: Privacy is important, no collection or sharing of data without consent is acceptable. 
+
+### Performance 
+- Multi-Core Processing: Should be able to handle heavy tasks without overheating the computer. Shouldn't take too much computing power for easy tasks. 
+- Memory Management: Efficient memory usage to avoid unnecessary usage of system resources. 
+
+## Technical Constraints 
+- Open Source: The source code is open, it has the community that is contributing to the software's evolution. 
+- Cross-Platform Dependencies: Needs to manage dependencies that work across all supported operating systems. 
+
+## Other Requirements 
+- Community Feedback: A channel for feedback for users to share ideas, contribute to the project and report bugs.
