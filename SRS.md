@@ -1,7 +1,7 @@
 # Audacity
 ## Software Requirements Specification (SRS) Document
 
-![Screen](https://github.com/watreh/audacity/blob/master/screenshots/Audacity_Logo.small.png)
+![Logo](https://github.com/watreh/audacity/blob/master/screenshots/Audacity_Logo_With_Name.png)
 
 ### 1. Introduction
 
@@ -57,15 +57,19 @@ Cross-platform functionality assumes compatibility with standard operating syste
 ### 3. System Features and Requirements
 **3.1 Functional Requirements**
 
-Recording: Users must be able to connect a microphone or other audio input devices and record audio directly within the software. The recording feature should support multiple channels for users to manage different audio sources simultaneously.
+Recording: Users must be able to connect a microphone or other audio input devices and record audio directly within the software. The recording feature should support multiple channels so that users can manage different audio sources simultaneously. If a user does not have an external device for recording, the application needs to use the built-in sound-recording device or raise an error message informing about the absence of such a device.
 
-Playback: The software shall provide playback functionality to review recordings or edits. Users should have the ability to control playback speed and loop sections for detailed editing and analysis.
+Playback: The software shall provide playback functionality to review recordings or edits. Users should be able to control playback speed and loop sections for detailed editing and analysis. This functionality allows users to hear the changes the audio made due to their edits. 
 
-Editing Tools: Comprehensive editing capabilities, including cutting, trimming, copying, and pasting, are essential. Advanced features such as fade in/out, silence, and time-stretch should also be available to handle a variety of editing needs.
+Editing Tools: Comprehensive editing capabilities, including often-used cutting, trimming, copying, and pasting, are essential. Advanced features such as fade-in and fade-out, noise-reduction, and time-stretch should also be available to handle a variety of editing needs.
 
-Effects and Plugins: Audacity should offer a range of built-in audio effects like equalization, compression, reverb, and noise reduction. Support for third-party plugins in VST, AU, and LADSPA formats will enable users to extend the software’s functionality further.
+Multi-track: The software needs to have multiple tracks to allow users to play and edit multiple audio recordings simultaneously. This is one of the most vital features as the majority of users record their voice-over instrumental music or beats or record a dialogue or conversation with multiple audio inputs for each speaker. Multiple tracks will allow them to cut, copy, and paste excerpts from the recorded or imported audio.  
 
-File Formats: The software must support importing and exporting various audio file formats including WAV, MP3, OGG, and FLAC to ensure users can work with files from different sources and distribute their work in widely compatible formats.
+Effects and Plugins: Audacity should offer a range of built-in audio effects like equalization, compression, reverb, and noise reduction. Support for third-party plugins in different formats will enable users to extend the software's functionality even further. It also allows the development of plugins by developers and enthusiasts who are not limited to the application's existing functionalities.
+
+File Formats: The software must support importing and exporting various audio file formats, including WAV, MP3, OGG, and FLAC, to ensure users can work with files from different sources and distribute their work in widely compatible formats.
+
+![Screen](https://github.com/watreh/audacity/blob/master/screenshots/Screenshot2.PNG)
 
 **3.2 External Interface Requirements**
 
