@@ -11,15 +11,15 @@ This document specifies the comprehensive software requirements for Audacity, a 
 
 **1.2 Intended Audience**
 
-This document is intended for software developers, project managers, quality assurance testers, potential contributors, and end-users who wish to understand the capabilities and expectations of Audacity.
+This document is intended for software developers, project managers, quality assurance testers, potential contributors, and end-users who wish to understand Audacity's capabilities and expectations.
 
 **1.3 Intended Use**
 
-Audacity is designed to provide a robust and user-friendly platform for audio recording, editing, and manipulation. It provides a wide range of audio processing functionalities from simple cut-and-trim operations to complex multi-track editing for podcasters, musicians and audio engineers.
+Audacity is designed to provide a robust and user-friendly audio recording, editing, and manipulation platform. It offers a wide range of audio processing functionalities, from simple cut-and-trim operations to complex multi-track editing, for podcasters, musicians, and audio engineers.
 
 **1.4 Product Scope**
 
-Audacity aims to be the go-to software for audio editing tasks, offering versatility and accessibility. It supports a multitude of audio formats, provide a rich set of editing tools and ensures compatibility across various operating systems.
+Audacity aims to be the go-to software for audio editing tasks, offering versatility and accessibility. It supports many audio formats, provides a rich set of editing tools, and ensures compatibility across various operating systems.
 
 **1.5 Definitions and Acronyms**
 
@@ -33,7 +33,7 @@ OS: Operating System
 
 **2.1 User Needs**
 
-Users of Audacity require software that is both powerful and easy to use with capabilities ranging from basic recording to advanced audio manipulation. Key needs include:
+Users of Audacity require software that is both powerful and easy to use, with capabilities ranging from basic recording to advanced audio manipulation. Key needs include:
 
 A user-friendly interface that simplifies complex editing tasks.
 
@@ -43,7 +43,7 @@ Efficient performance for quick editing and processing.
 
 Accessibility features to ensure usability by individuals with disabilities.
 
-Software requirements are not limited to the listed key needs, but they are basic and most important requirements. Users intended to perform audio manipulations often look for powerful, but simple software that will allow them to record, trim, speed up or slow down, reverb audio tracks. Audacity is not limited to these functionalities. Moreover it provides many more tools to manipulate tracks. Considering the opportunity to install third-party plugins, the number of functionalities increases drastically. 
+Software requirements are not limited to the listed key needs but are basic and most important ones. Often, users intent on performing audio manipulations look for powerful but simple software that will allow them to record, trim, either speed up or slow down, or reverb audio tracks. Audacity is not limited to these functionalities. Moreover, it provides many more tools to manipulate tracks. Considering the opportunity to install third-party plugins, the number of functionalities increases drastically.
 
 **2.2 Assumptions and Dependencies**
 
