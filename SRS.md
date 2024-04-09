@@ -1,6 +1,8 @@
 # Audacity
 ## Software Requirements Specification (SRS) Document
 
+![Screen](https://github.com/watreh/audacity/blob/master/screenshots/Audacity_Logo.small.png)
+
 ### 1. Introduction
 
 **1.1 Purpose**
@@ -13,11 +15,11 @@ This document is intended for software developers, project managers, quality ass
 
 **1.3 Intended Use**
 
-Audacity is designed to provide a robust and user-friendly platform for audio recording, editing, and manipulation. It caters to a wide range of audio processing needs, from simple cut-and-trim operations to complex multi-track editing for podcasters, musicians, and audio engineers.
+Audacity is designed to provide a robust and user-friendly platform for audio recording, editing, and manipulation. It provides a wide range of audio processing functionalities from simple cut-and-trim operations to complex multi-track editing for podcasters, musicians and audio engineers.
 
 **1.4 Product Scope**
 
-Audacity aims to be the go-to software for audio editing tasks, offering versatility and accessibility. It shall support a multitude of audio formats, provide a rich set of editing tools, and ensure compatibility across various operating systems.
+Audacity aims to be the go-to software for audio editing tasks, offering versatility and accessibility. It supports a multitude of audio formats, provide a rich set of editing tools and ensures compatibility across various operating systems.
 
 **1.5 Definitions and Acronyms**
 
@@ -31,25 +33,25 @@ OS: Operating System
 
 **2.1 User Needs**
 
-Users of Audacity require software that is both powerful and easy to use, with capabilities ranging from basic recording to advanced audio manipulation. Key needs include:
+Users of Audacity require software that is both powerful and easy to use with capabilities ranging from basic recording to advanced audio manipulation. Key needs include:
 
 A user-friendly interface that simplifies complex editing tasks.
 
-A broad array of editing features and effects to cater to various audio projects.
-
-Accessibility features to ensure usability by individuals with disabilities.
+A wide range of editing features and effects to handle different audio projects.
 
 Efficient performance for quick editing and processing.
 
-Users of Audacity require software that is both powerful and easy to use, with capabilities ranging from basic recording to advanced audio manipulation. They need a user-friendly interface that simplifies complex editing tasks and a broad array of editing features and effects to cater to various audio projects. Accessibility features are also important to ensure usability by individuals with disabilities, along with efficient performance for quick editing and processing.
+Accessibility features to ensure usability by individuals with disabilities.
+
+Software requirements are not limited to the listed key needs, but they are basic and most important requirements. Users intended to perform audio manipulations often look for powerful, but simple software that will allow them to record, trim, speed up or slow down, reverb audio tracks. Audacity is not limited to these functionalities. Moreover it provides many more tools to manipulate tracks. Considering the opportunity to install third-party plugins, the number of functionalities increases drastically. 
 
 **2.2 Assumptions and Dependencies**
 
-It is assumed that users have a basic understanding of audio editing concepts.
+It is assumed that users have a basic understanding of audio editing concepts. 
 
-The software's performance is dependent on the user's hardware capabilities.
+The software's performance is dependent on the user's hardware capabilities and limitations.
 
-Cross-platform functionality assumes compatibility with standard operating systems: Windows, macOS, and Linux.
+Cross-platform functionality assumes compatibility with standard operating systems such as Windows, macOS, and Linux.
 
 
 ### 3. System Features and Requirements
