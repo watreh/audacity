@@ -47,11 +47,11 @@ Software requirements are not limited to the listed key needs but are basic and 
 
 **2.2 Assumptions and Dependencies**
 
-It is assumed that users have a basic understanding of audio editing concepts. 
+- It is assumed that users have a basic understanding of audio editing concepts. 
 
-The software's performance is dependent on the user's hardware capabilities and limitations.
+- The software's performance is dependent on the user's hardware capabilities and limitations.
 
-Cross-platform functionality assumes compatibility with standard operating systems such as Windows, macOS, and Linux.
+- Cross-platform functionality assumes compatibility with standard operating systems such as Windows, macOS, and Linux.
 
 
 ### 3. System Features and Requirements
@@ -69,17 +69,17 @@ Effects and Plugins: Audacity should offer a range of built-in audio effects lik
 
 File Formats: The software must support importing and exporting various audio file formats, including WAV, MP3, OGG, and FLAC, to ensure users can work with files from different sources and distribute their work in widely compatible formats.
 
-![Screen](https://github.com/watreh/audacity/blob/master/screenshots/Screenshot2.PNG)
+![Screen](https://github.com/watreh/audacity/blob/master/screenshots/Screenshot3.png)
 
 **3.2 External Interface Requirements**
 
-Audio Interfaces: Compatibility with a variety of audio input and output devices including USB microphones, audio interfaces, and built-in computer microphones is required. The software should seamlessly integrate with these devices without the need for additional configuration.
+Audio Interfaces: Compatibility with a variety of audio input devices including USB microphones, audio interfaces, and built-in computer microphones is required. The software should seamlessly integrate with these devices without the need for additional configuration. The same applies to output devices such as headphones, headsets, eatbuds, and speakers which may be connected through 3.5mm jack.  
 
 File Systems: Audacity must be able to interact with different file systems for file management, supporting operations like opening, saving, and organizing audio files across platforms.
 
 **3.3 System Features**
 
-Multi-Language Support: The software shall offer interface localization in multiple languages to cater to a global user base. This includes not just the GUI elements but also help documentation and support resources.
+Multi-Language Support: The software shall offer interface localization in multiple languages to cover a global user base. This includes not just the GUI elements but also help documentation and support resources.
 
 Theme Support: Customizable themes to enhance user experience by allowing users to personalize the look and feel of the software. This includes options for light, dark, and system-default themes.
 
