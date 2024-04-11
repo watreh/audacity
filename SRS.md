@@ -37,25 +37,25 @@ The remaining sections of this document provide a general description, including
 
 **2.1 User Needs**
 
-Users of Audacity require software that is both powerful and easy to use, with capabilities ranging from basic recording to advanced audio manipulation. Key needs include:
+Users of Audacity look for software that is both powerful and easy to use, with capabilities ranging from basic recording to advanced audio manipulation. Key needs include:
 
 A user-friendly interface that simplifies complex editing tasks.
 
-A wide range of editing features and effects to handle different audio projects.
+A wide range of editing features and effects to handle different audio projects free of charge.
 
-Efficient performance for quick editing and processing.
+Efficient performance for quick editing and processing, that doesn't require a lot of memory and computing power.
 
 Accessibility features to ensure usability by individuals with disabilities.
 
-Software requirements are not limited to the listed key needs but are basic and most important ones. Often, users intent on performing audio manipulations look for powerful but simple software that will allow them to record, trim, either speed up or slow down, or reverb audio tracks. Audacity is not limited to these functionalities. Moreover, it provides many more tools to manipulate tracks. Considering the opportunity to install third-party plugins, the number of functionalities increases drastically.
+Software requirements are not limited to the listed key needs but are basic and most important ones. Often, users intent on performing audio manipulations look for powerful but simple software that will allow them to record, trim, either speed up or slow down, or reverb audio tracks that is accessible and preferrably free. Audacity is not limited to these functionalities, moreover, it provides many more tools to manipulate tracks. Considering the opportunity to install third-party plugins, the number of functionalities increases dramatically.
 
 **2.2 Assumptions and Dependencies**
 
-- It is assumed that users have a basic understanding of audio editing concepts. 
+- It is assumed that users have a basic understanding of audio editing concepts. Otherwise, tutorials and manuals are provided on https://audacity.gitbook.io/dev.
 
-- The software's performance is dependent on the user's hardware capabilities and limitations.
+- The software's performance is dependent on the user's hardware capabilities and limitations. Since the application does not require much computing power, it works perfectly fine on most of machines. 
 
-- Cross-platform functionality assumes compatibility with standard operating systems such as Windows, macOS, and Linux.
+- Cross-platform functionality means compatibility with standard operating systems such as Windows, macOS, and Linux.
 
 
 ### 3. System Features and Requirements
