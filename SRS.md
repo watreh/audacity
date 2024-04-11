@@ -85,6 +85,8 @@ Theme Support: Customizable themes to enhance user experience by allowing users 
 
 Zoom and Scroll: Easy navigation through audio tracks via zoom and scroll features is critical for efficient editing. Users should be able to zoom in for detailed edits and scroll through long tracks without lag.
 
+![Screen](https://github.com/watreh/audacity/blob/master/screenshots/Screenshot4.png)
+
 **3.4 Nonfunctional Requirements**
 
 Intuitiveness: The interface and functionality should be intuitive for users of all experience levels, with a learning curve that accommodates both beginners and advanced users. Examples of intuitive design include contextual toolbars and drag-and-drop functionality for ease of use.
