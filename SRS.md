@@ -7,19 +7,19 @@
 
 **1.1 Purpose**
 
-This document specifies the comprehensive software requirements for Audacity, a free, open-source audio editing software. It aims to define the functionalities, performance criteria, and user interfaces to ensure clarity and understanding among the development team, stakeholders, and users.
+This document specifies the comprehensive system requirements for Audacity, a free, open-source audio editing software. It aims to define the functionalities, performance criteria, and user interfaces to ensure clarity and understanding among the development team, stakeholders, and users.
 
 **1.2 Intended Audience**
 
-This document is intended for software developers, project managers, quality assurance testers, potential contributors, and end-users who wish to understand Audacity's capabilities and expectations.
+This document is intended for software developers, project managers, quality assurance testers, potential contributors, and of course end-users who wish to understand Audacity's capabilities, functionalities and expectations.
 
 **1.3 Intended Use**
 
-Audacity is designed to provide a robust and user-friendly audio recording, editing, and manipulation platform. It offers a wide range of audio processing functionalities, from simple cut-and-trim operations to complex multi-track editing, for podcasters, musicians, and audio engineers.
+Audacity is designed to provide a robust and user-friendly audio recording, editing, and manipulation platform. It offers a wide range of audio processing functionalities, from simple cut-and-trim operations to complex multi-track editing what might be useful for podcasters, musicians, audio engineers or any person who wants to edit audio for personal use.
 
 **1.4 Product Scope**
 
-Audacity aims to be the go-to software for audio editing tasks, offering versatility and accessibility. It supports many audio formats, provides a rich set of editing tools, and ensures compatibility across various operating systems.
+Audacity aims to be the go-to software for audio editing tasks, offering versatility and accessibility. It supports many audio formats, provides a rich set of editing tools, and ensures compatibility across various operating systems. More detailed information is provided in later sections.
 
 **1.5 Definitions and Acronyms**
 
@@ -28,6 +28,9 @@ SRS: Software Requirements Specification
 GUI: Graphical User Interface
 
 OS: Operating System
+
+**1.6 Overview**
+The remaining sections of this document provide a general description, including the product's purpose, functionalities and requirements of the product. Overall description of the project is discussed in section 2 of this document. Section 3 describes system features and requirements. It also gives the user viewpoint of product. Section 4 covers technical constraints of the project and the last Section 5 discribes other requirements.
 
 ### 2. Overall Description
 
