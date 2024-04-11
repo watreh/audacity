@@ -30,6 +30,7 @@ GUI: Graphical User Interface
 OS: Operating System
 
 **1.6 Overview**
+
 The remaining sections of this document provide a general description, including the product's purpose, functionalities and requirements of the product. Overall description of the project is discussed in section 2 of this document. Section 3 describes system features and requirements. It also gives the user viewpoint of product. Section 4 covers technical constraints of the project and the last Section 5 discribes other requirements.
 
 ### 2. Overall Description
